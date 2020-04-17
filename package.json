@@ -1,29 +1,24 @@
 {
-    "name": "taskmanager",
-    "version": "1.0.0",
-    "description": "Task Manager web app with functionalities like due date, notes,priority.",
-    "main": "server.js",
-    "scripts": {
-        "start": "node server.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-     "keywords": [
-            "node",
-            "express"
-          ],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "express": "^4.17.1",
-        "sequelize": "^5.21.6",
-        "sqlite3": "^4.1.1"
-    },
- 
-    
-"engines": {
-    "node": "^13.12.0",
-    "npm": "^6.14.4"  
- 
-
-}
+  "name": "taskmanager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "db.js",
+  "dependencies": {
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SakshiGaur24/Task-Manager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SakshiGaur24/Task-Manager/issues"
+  },
+  "homepage": "https://github.com/SakshiGaur24/Task-Manager#readme"
 }
